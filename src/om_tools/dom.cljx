@@ -92,10 +92,10 @@
       (list? form)))
 
 #+clj
-(def form-tags '[input textarea option])
+(def form-tags '[input textarea option select])
 
 #+clj
-(def all-tags (concat om.dom/tags form-tags))
+(def all-tags (distinct (concat om.dom/tags form-tags)))
 
 #+clj
 (defn el-ctor [tag]
