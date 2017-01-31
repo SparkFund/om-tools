@@ -1,6 +1,6 @@
-(defproject prismatic/om-tools "0.4.1-SNAPSHOT"
+(defproject sparkfund/om-tools "0.4.1"
   :description "Tools for building Om applications"
-  :url "http://github.com/plumatic/om-tools"
+  :url "http://github.com/sparkfund/om-tools"
   :license {:name "Eclipse Public License - v 1.0"
             :url "http://www.eclipse.org/legal/epl-v10.html"
             :distribution :repo}
